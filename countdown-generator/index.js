@@ -132,7 +132,7 @@ module.exports = {
                 seconds = (seconds.toString().length == 1) ? '0' + seconds : seconds;
                 
                 // build the date string
-                let string = [days, 'd ', hours, 'h ', minutes, 'm ', seconds, 's'].join('');
+                let string = [days, ' Gün ', hours, ' Saat ', minutes, ' Dakika ', seconds, ' Saniye'].join('');
                 
                 // paint BG
                 ctx.fillStyle = this.bg;
