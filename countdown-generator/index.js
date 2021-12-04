@@ -102,7 +102,7 @@ module.exports = {
         });
         
         // estimate the font size based on the provided width
-        let fontSize = Math.floor(this.width / 25) + 'px';
+        let fontSize = Math.floor(this.width / 23) + 'px';
         let fontFamily = 'Courier New'; // monospace works slightly better
         
         // set the font style
